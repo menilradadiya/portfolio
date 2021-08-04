@@ -5,7 +5,7 @@ import 'package:url_launcher/url_launcher.dart';
 
 import '../widget_barrel.dart';
 
-const Color BANNER_BG_COLOR = Color(0xFF8E8E8E);
+const Color BANNER_BG_COLOR = Color(0xFFE3AEAE);
 const String BANNER_PERSON_NAME = 'MenilKumar R.';
 const String TITLE_PERSON_NAME = 'MenilKumar';
 
@@ -99,7 +99,7 @@ List<ContactMeModel> kContactMe = [
       userName: 'MenilKumar R',
       icon: Icons.face,
       onClick: () async {
-        await launch('https://www.linkedin.com/in/radadiya-menil-4b8008167/');
+        await launch('https://www.linkedin.com/in/menilkumar-r-4b8008167/');
       }),
   ContactMeModel(
       title: 'Facebook',
@@ -138,6 +138,12 @@ List<SkillsModel> kSkills = [
   SkillsModel('Material design', 90),
   SkillsModel('Firebase', 80),
   SkillsModel('Kotlin', 50),
+];
+
+List<SkillsModel> kLanguage = [
+  SkillsModel('Gujarati', 90),
+  SkillsModel('Hindi', 70),
+  SkillsModel('English', 65),
 ];
 
 class ResumeModel {

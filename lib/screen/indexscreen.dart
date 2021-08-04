@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/resume/education.dart';
 import 'package:portfolio/resume/experience.dart';
+import 'package:portfolio/resume/language.dart';
 import 'package:portfolio/resume/skills.dart';
 import 'package:portfolio/widget_barrel.dart';
 
@@ -11,6 +12,7 @@ class IndexScreen extends StatefulWidget {
 
 class _IndexScreenState extends State<IndexScreen> {
   final ScrollController myScrollWorks = ScrollController();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -45,6 +47,7 @@ class _IndexScreenState extends State<IndexScreen> {
               Education(),
               Experience(),
               Skills(),
+              Languages(),
               SliverList(
                 delegate: SliverChildListDelegate([
                   Contact(),

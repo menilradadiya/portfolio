@@ -46,7 +46,7 @@ class _BannerArrowDownState extends State<BannerArrowDown>
           SlideTransition(
               position: _offsetAnimation,
               child: Icon(
-                Icons.arrow_back_ios_rounded,
+                Icons.arrow_downward,
                 size: 28.0,
                 color: Theme.of(context).accentColor,
               )),

@@ -30,14 +30,6 @@ class Footer extends StatelessWidget {
                 )
               ],
             ),
-            SizedBox(height: 48),
-            Text(
-              '#SPREADJOY',
-              style: TextStyle(
-                  fontSize: 16.0,
-                  fontWeight: FontWeight.w400,
-                  color: Colors.grey[300]),
-            ),
           ],
         ),
       ),

@@ -14,7 +14,7 @@ class BannerBackground extends StatelessWidget {
             Row(
               children: [
                 Expanded(child: Container(color: BANNER_BG_COLOR)),
-                Expanded(child: Container(color: Colors.white)),
+                Expanded(child: Container(color: Color(0xFF2e7ec7))),
               ],
             ),
             Column(
@@ -25,7 +25,7 @@ class BannerBackground extends StatelessWidget {
                 Text(
                   'HEY! I AM',
                   style: TextStyle(
-                      color: Theme.of(context).accentColor,
+                      color: Colors.black,
                       fontSize: 18.0,
                       fontWeight: FontWeight.w900,
                       letterSpacing: 8.0),
@@ -98,7 +98,7 @@ class BannerBackground extends StatelessWidget {
           speed: Duration(milliseconds: 100),
           textStyle: TextStyle(
             fontSize: 32.0,
-            color: Theme.of(ctx).accentColor,
+            color: Colors.black,
             decoration: TextDecoration.underline,
             fontWeight: FontWeight.w800,
           ),

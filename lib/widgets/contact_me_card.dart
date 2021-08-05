@@ -12,13 +12,16 @@ class ContactMeCard extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal:12.0),
       child: InkWell(
-        onTap: () => contactMeModel.onClick,
+        onTap: () {
+          contactMeModel.onClick;
+        },
         child: Container(
           height: 200.0,
           child: AspectRatio(
             aspectRatio: 1/1,
             child: Card(
               elevation: 8.0,
+              color: Colors.white,
               child: Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 28.0),
                 child: Column(

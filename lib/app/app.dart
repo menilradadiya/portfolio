@@ -36,8 +36,8 @@ class _PortfolioAppState extends State<PortfolioApp> {
         debugShowCheckedModeBanner: false,
         themeMode:
         themeChangeProvider.darkTheme ? ThemeMode.dark : ThemeMode.light,
-        theme: AppTheme.light(),
-        darkTheme: AppTheme.dark(),
+        theme: AppTheme.dark(),
+        darkTheme: AppTheme.light(),
         home: IndexScreen(),
       )
     );

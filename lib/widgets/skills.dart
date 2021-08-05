@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:portfolio/widget_barrel.dart';
 
 class SocialSkills extends StatelessWidget {
@@ -20,7 +21,7 @@ class SocialSkills extends StatelessWidget {
     for (String asset in kSkillsAssets) {
       skills.add(Padding(
         padding: const EdgeInsets.only(right: 16.0, top: 8.0, bottom: 8.0),
-        child: SizedBox(width: 180.0, height: 77, child: Image.asset(asset)),
+        child: SizedBox(width: 180.0, height: 77, child: Image.asset(asset,color: Colors.white,)),
       ));
     }
 

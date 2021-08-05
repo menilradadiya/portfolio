@@ -16,9 +16,9 @@ class StickyHeader extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: [
             AnimatedContainer(
-                duration: Duration(milliseconds: 500),
+                duration: Duration(milliseconds: 200),
                 height: 3.0,
-                color: Theme.of(context).primaryColor,
+                color: Colors.white,
                 width: isPinned ? 24.0 : 0.0),
             Visibility(
               visible: isPinned,
@@ -29,8 +29,8 @@ class StickyHeader extends StatelessWidget {
             Text(headerName,
                 style: TextStyle(
                     color: isPinned
-                        ? Theme.of(context).primaryColor
-                        : Colors.black,
+                        ? Colors.white
+                        : Colors.white,
                     fontSize: 16,
                     fontWeight: FontWeight.w700)),
           ],

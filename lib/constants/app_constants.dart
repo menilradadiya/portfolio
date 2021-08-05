@@ -5,7 +5,7 @@ import 'package:url_launcher/url_launcher.dart';
 
 import '../widget_barrel.dart';
 
-const Color BANNER_BG_COLOR = Color(0xFFE3AEAE);
+const Color BANNER_BG_COLOR = Color(0xFF154879);
 const String BANNER_PERSON_NAME = 'MenilKumar R.';
 const String TITLE_PERSON_NAME = 'MenilKumar';
 
@@ -19,7 +19,7 @@ const String ABOUT_ME_DESC =
     'Passionately curious developer with 1.5+ years of extensive experience in building, integrating, testing and supporting cutting edge mobile applications';
 
 const String DOWNLOAD_CV_URL =
-    'https://drive.google.com/uc?export=download&id=1aNLxPB5PW7fiKP-JWZJwVJTsex61MmWN';
+    'https://drive.google.com/file/d/1TM71He-b_btWKGxmVZLr_voKyLLsxqGK/view?usp=sharing';
 
 const List<String> ABOUT_ME_LABELS = [
   'Name:',

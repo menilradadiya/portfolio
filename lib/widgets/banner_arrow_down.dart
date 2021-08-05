@@ -48,7 +48,7 @@ class _BannerArrowDownState extends State<BannerArrowDown>
               child: Icon(
                 Icons.arrow_downward,
                 size: 28.0,
-                color: Theme.of(context).accentColor,
+                color: Colors.white,
               )),
         ],
       ),

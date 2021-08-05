@@ -18,7 +18,7 @@ class Contact extends StatelessWidget {
             child: Text('Contact',
                 maxLines: 1,
                 style: TextStyle(
-                    color: Colors.black,
+                    color: Colors.white,
                     fontSize: 50,
                     fontWeight: FontWeight.w700)),
           ),

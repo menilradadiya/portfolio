@@ -41,7 +41,7 @@ class ResumeItem extends StatelessWidget {
                 '${resume.title}',
                 style: TextStyle(
                     fontWeight: FontWeight.w700,
-                    color: Colors.black,
+                    color: Colors.white,
                     fontSize: 24.0),
               ),
               SizedBox(

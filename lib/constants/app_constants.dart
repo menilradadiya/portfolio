@@ -36,7 +36,6 @@ const List<String> ABOUT_ME_VALUES = [
   'Surat , Gujarat',
   '394105',
   'rma4005@gmail.com',
-  '+91 87330 83755',
 ];
 
 const PROJECT_COMPLETE_COUNT = '08+';
@@ -59,21 +58,19 @@ const List<String> kSkillsAssets = [
 const List<ResumeModel> kEducation = [
   ResumeModel(
       period: '2018-2021',
-      title: 'Bachelor of engineering in computer science',
-      place: 'Gujarat Technological University',
-      description:
-          'Pursued bachelor of engineering in computer science in Gujarat Technological University, Surat. got hands on experience in learned Java language as a minor subject.'),
+      title: '',
+      place: 'Mahavir Swami College of Engineering and Technology (GTU) - 8.66 CGPA',
+      description: ''),
   ResumeModel(
       period: '2015-2018',
-      title: 'Diploma of computer engineering',
-      place: 'Gujarat Technological University',
-      description: 'Completed of my diploma engineering with 8.46 CGPI'),
+      title: '',
+      place: 'Shree Dhanvantary College of Diploma Engineering (GTU) - 8.46 CGPA',
+      description: ''),
   ResumeModel(
       period: '2014-2015',
-      title: 'Secondary School Certificate (SSC)',
-      place: 'Gujarat secondary & Higher secondary education board ,Gujarat',
-      description:
-          'A complete change of environment from SSC institution right from syllabus to new people. Took computer science with mathematics as a major ,learnt fundamentals of computing.'),
+      title: '',
+      place: ' Samarpan techno school (SSS) – 86 %',
+      description: ''),
 ];
 
 const List<ResumeModel> kExperience = [
@@ -96,7 +93,7 @@ List<ContactMeModel> kContactMe = [
       }),
   ContactMeModel(
       title: 'LinkedIn',
-      userName: 'MenilKumar R',
+      userName: 'menilradadiya',
       icon: Icons.face,
       onClick: () async {
         await launch('https://www.linkedin.com/in/menilkumar-r-4b8008167/');

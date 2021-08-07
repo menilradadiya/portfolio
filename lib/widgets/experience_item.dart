@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio/resume/experience.dart';
+import 'package:portfolio/resume/experience.dart';
 
 import '../widget_barrel.dart';
 
-class ResumeItem extends StatelessWidget {
+class ExperienceItem extends StatelessWidget {
   final ResumeModel resume;
   final IconData icon;
 
-  const ResumeItem({required this.resume, required this.icon});
+  const ExperienceItem({required this.resume, required this.icon});
   @override
   Widget build(BuildContext context) {
     return Row(
@@ -38,11 +40,28 @@ class ResumeItem extends StatelessWidget {
                 height: 4.0,
               ),
               Text(
+                '${resume.title}',
+                style: TextStyle(
+                    fontWeight: FontWeight.w700,
+                    color: Colors.white,
+                    fontSize: 24.0),
+              ),
+              SizedBox(
+                height: 8.0,
+              ),
+              Text(
                 '${resume.place}',
                 style: TextStyle(
-                    fontWeight: FontWeight.w300,
+                    fontWeight: FontWeight.w700,
                     color: Colors.white,
                     fontSize: 18.0),
+              ),
+              Text(
+                '${resume.description}',
+                style: TextStyle(
+                    fontWeight: FontWeight.w400,
+                    color: Colors.grey,
+                    fontSize: 16.0),
               ),
               Divider(
                 height: 42.0,

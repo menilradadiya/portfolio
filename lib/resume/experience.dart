@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_sticky_header/flutter_sticky_header.dart';
+import 'package:portfolio/widgets/experience_item.dart';
 import 'package:portfolio/widgets/sticky_header.dart';
 
 import '../widget_barrel.dart';
@@ -51,7 +52,7 @@ class Experience extends StatelessWidget {
                           physics: NeverScrollableScrollPhysics(),
                           itemCount: kExperience.length,
                           itemBuilder: (BuildContext context, int index) =>
-                              ResumeItem(
+                              ExperienceItem(
                             resume: kExperience[index],
                             icon: Icons.work_rounded,
                           ),

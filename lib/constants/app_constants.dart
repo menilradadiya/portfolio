@@ -58,18 +58,18 @@ const List<String> kSkillsAssets = [
 const List<ResumeModel> kEducation = [
   ResumeModel(
       period: '2018-2021',
-      title: '',
+      title: 'Bachelor of engineering in computer science',
       place: 'Mahavir Swami College of Engineering and Technology (GTU) - 8.66 CGPA',
       description: ''),
   ResumeModel(
       period: '2015-2018',
-      title: '',
+      title: 'Diploma in computer engineering',
       place: 'Shree Dhanvantary College of Diploma Engineering (GTU) - 8.46 CGPA',
       description: ''),
   ResumeModel(
       period: '2014-2015',
-      title: '',
-      place: ' Samarpan techno school (SSS) – 86 %',
+      title: '10th standard',
+      place: 'Samarpan techno school (SSS) – 86 %',
       description: ''),
 ];
 

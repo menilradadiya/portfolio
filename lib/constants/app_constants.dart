@@ -69,7 +69,7 @@ const List<ResumeModel> kEducation = [
   ResumeModel(
       period: '2014-2015',
       title: '10th standard',
-      place: 'Samarpan techno school (SSS) – 86 %',
+      place: 'Samarpan techno school (SSC) – 86 %',
       description: ''),
 ];
 
